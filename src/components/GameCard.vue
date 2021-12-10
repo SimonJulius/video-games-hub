@@ -83,4 +83,18 @@ article {
     }
   }
 }
+
+@media screen and (max-width: $mobile) {
+  article {
+    margin-top: 30%;
+
+    & p {
+      .score {
+        position: absolute;
+        right: -10%;
+        transform: translateY(-250%);
+      }
+    }
+  }
+}
 </style>

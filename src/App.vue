@@ -5,7 +5,7 @@
 <script></script>
 
 <style lang="scss">
-// #app {
-//
-// }
+#app {
+  background-image: linear-gradient(#081221, #03080f);
+}
 </style>

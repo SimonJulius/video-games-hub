@@ -78,6 +78,8 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/_variables.scss';
+
 .container {
   position: relative;
   width: 100%;
@@ -125,6 +127,12 @@ export default defineComponent({
   }
   .selectHide {
     display: none;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .items {
+    background: #182c47df !important;
   }
 }
 </style>

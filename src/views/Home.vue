@@ -130,7 +130,7 @@ export default defineComponent({
   mixins: [vueWindowSizeMixin()],
   methods: {
     screenIsDesktop() {
-      const isDesktopSize = this.$windowWidth > 768;
+      const isDesktopSize = this.$windowWidth > 768 || this.$windowWidth < 480;
       this.isDesktop = isDesktopSize;
       return isDesktopSize;
     },
@@ -374,6 +374,69 @@ export default defineComponent({
     .select_body {
       justify-content: space-between;
       width: 116%;
+    }
+  }
+}
+@media screen and (max-width: $mobile) {
+  .main {
+    .results {
+      display: flex;
+      flex-direction: column;
+      & > div {
+        width: 100%;
+      }
+      .minimum_score {
+        width: 100% !important;
+      }
+    }
+    .select {
+      margin-left: 0rem;
+    }
+    .filters {
+      flex: 2 2 20%;
+      background: #091627;
+      & .contents {
+        position: sticky;
+        top: 0;
+        padding: 4% 5% 0 5%;
+        width: 80%;
+        margin-left: 10%;
+
+        header {
+          margin-bottom: 2.479rem;
+        }
+
+        & > div {
+          margin-bottom: 1.8rem;
+          font-size: 12px;
+
+          .title {
+            margin-bottom: 4%;
+          }
+          & > div {
+            margin-bottom: 1.8rem;
+          }
+        }
+      }
+
+      .clear {
+        padding: 0.4rem 0.7rem;
+        display: inline;
+        margin-left: 7%;
+        &.set_position {
+          position: absolute;
+          width: 100%;
+          top: 200%;
+        }
+      }
+    }
+
+    .games {
+      margin-top: 2rem;
+      margin-left: 2.5rem;
+    }
+    .select_body {
+      width: 100%;
     }
   }
 }

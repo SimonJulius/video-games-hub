@@ -981,11 +981,6 @@
   resolved "https://registry.yarnpkg.com/@kyvg/vue3-notification/-/vue3-notification-2.3.4.tgz#7503647ae1d26a7c58bbf5182b505ca345c0882a"
   integrity sha512-20Km1L75gncIZCjosT1OKbJl9HhNiOd7LRXqVIqlehHHem9NgBjQhDFz6XGo1RcF0MyA4/BC7kV7tcq/PMT+tA==
 
-"@mdi/js@^5.9.55":
-  version "5.9.55"
-  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-5.9.55.tgz#8f5bc4d924c23f30dab20545ddc768e778bbc882"
-  integrity sha512-BbeHMgeK2/vjdJIRnx12wvQ6s8xAYfvMmEAVsUx9b+7GiQGQ9Za8jpwp17dMKr9CgKRvemlAM4S7S3QOtEbp4A==
-
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -7437,11 +7432,6 @@ pretty-error@^2.0.2:
     lodash "^4.17.20"
     renderkid "^2.0.4"
 
-prismjs@^1.24.1:
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.25.0.tgz#6f822df1bdad965734b310b315a23315cf999756"
-  integrity sha512-WCjJHl1KEWbnkQom1+SzftbtXMKQoezOCYs5rECqMN+jP+apI7ftoflyqigqzopSO3hMhTEb0mFClA8lkolgEg==
-
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -8214,11 +8204,6 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.6.tgz#24e630c4b0f03fea446a2bd299e62b4a6ca8d0af"
   integrity sha512-sDl4qMFpijcGw22U5w63KmD3cZJfBuFlVNbVMKje2keoKML7X2UzWbc4XrmEbDwg0NXJc3yv4/ox7b+JWb57kQ==
 
-simple-icons@^5.3.0:
-  version "5.24.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.24.0.tgz#6485a5713c2e5758605b461b833396c4874e9e4d"
-  integrity sha512-wKHeqUBsHYB5KPqdc3e7BGQPQCx/NbHfJuukjo70ABGk6hegjTDSoJhsSEcVadknVG4W3+jcC3G3RbytJnapGQ==
-
 simple-swizzle@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
@@ -8696,11 +8681,6 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
-
-sweetalert2@11.x:
-  version "11.3.0"
-  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.3.0.tgz#39be4b23a02be479f36441f3a5f16a5d6364aba3"
-  integrity sha512-C0TFp0VLxgx+PmhJ0mL8qzx+iYjnCLdDbvQHKY6KAGI+xwawMvLkStPgw2LmJl6itaDhR/qLQStPFIbr1VK9Ow==
 
 table@^5.2.3:
   version "5.4.6"
@@ -9310,7 +9290,7 @@ vue-loader@^15.9.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-router@^4.0.0-0, vue-router@^4.0.10:
+vue-router@^4.0.0-0:
   version "4.0.12"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.12.tgz#8dc792cddf5bb1abcc3908f9064136de7e13c460"
   integrity sha512-CPXvfqe+mZLB1kBWssssTiWg4EQERyqJZes7USiqfW9B5N2x+nHlnsM1D3b5CaJ6qgCvMmYJnz+G0iWjNCvXrg==
@@ -9330,32 +9310,10 @@ vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-sweetalert2@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/vue-sweetalert2/-/vue-sweetalert2-5.0.2.tgz#b34f21f551aaefb88d94991daf7528913f66cefe"
-  integrity sha512-28pcpmvaFxwoXIUkOWwhZhmsV749jXxha8JicwPoSKyFKR5FhIaZU6UHO5WlUCLIVUI6sAWY6WngK2x/iXYwZg==
-  dependencies:
-    sweetalert2 "11.x"
-
 vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
-
-vue-toast-notification@^2.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/vue-toast-notification/-/vue-toast-notification-2.0.1.tgz#5fe607c493b5dc9b238bf49bc3bcf80366edd4e4"
-  integrity sha512-8GPJq1J6lsTPTCxSgPhnM8d0v+ivwT+u4R/xmtaDXeYNRkaRxqFOn3ewaVqmm+aCT8Y3/PQQS8dFqkMV7JOf/A==
-
-vue-toasted@^1.1.28:
-  version "1.1.28"
-  resolved "https://registry.yarnpkg.com/vue-toasted/-/vue-toasted-1.1.28.tgz#dbabb83acc89f7a9e8765815e491d79f0dc65c26"
-  integrity sha512-UUzr5LX51UbbiROSGZ49GOgSzFxaMHK6L00JV8fir/CYNJCpIIvNZ5YmS4Qc8Y2+Z/4VVYRpeQL2UO0G800Raw==
-
-vue-toastification@^1.7.14:
-  version "1.7.14"
-  resolved "https://registry.yarnpkg.com/vue-toastification/-/vue-toastification-1.7.14.tgz#4d6af4085f7122463c2821a27f851898b265cc85"
-  integrity sha512-khZR8t3NWZ/JJ2MZxXLbesHrRJ8AKa75PY5Zq8yMifF9x8lHq8ljYkC0d2PD9yahooygQB5tcFyRDkbbIPx8hw==
 
 vue-window-size@1.0.x:
   version "1.0.6"
@@ -9365,25 +9323,7 @@ vue-window-size@1.0.x:
     vue-demi "^0.9.0"
     window-resize-subject "^1.5.0"
 
-vue3-icon@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/vue3-icon/-/vue3-icon-2.0.0.tgz#6a7b16db190da982d120307b36556ebbed7b2d4d"
-  integrity sha512-7uZLM/9ajMlN4Xlr5t7xVPg6leMg1xgOYw7PPxuGohIntlxfPWk27gs8wJ/p63tjIlPsk38HwODpTmEUPqDudw==
-  dependencies:
-    simple-icons "^5.3.0"
-
-vue3-mq@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/vue3-mq/-/vue3-mq-3.0.1.tgz#e0d4b8d8078a4477bd9186d4d9042952f2ff5a99"
-  integrity sha512-fjANnh1Q2Xp34UkfBewkXqaWZpxeA0sMTdydGYIZhLRgF8Eu0R8mfi8p1hnfaLx92obpyINGS19UQAYgwjKHGQ==
-  dependencies:
-    "@mdi/js" "^5.9.55"
-    prismjs "^1.24.1"
-    vue "^3.0.5"
-    vue-router "^4.0.10"
-    vue3-icon "^2.0.0"
-
-vue@^3.0.0, vue@^3.0.5:
+vue@^3.0.0:
   version "3.2.24"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.24.tgz#6de7b01e55740dc37c0a5dbd45e70eed49f95189"
   integrity sha512-PvCklXNfcUMyeP/a9nME27C32IipwUDoS45rDyKn5+RQrWyjL+0JAJtf98HL6y9bfqQRTlYjSowWEB1nXxvG5Q==
